@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-NR">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
       </nav>
     </header>
 
-    <section>
+    <section class="container">
       <div class="list">
         <div class="item active">
           <div class="car-img">
@@ -48,22 +48,7 @@
             <button class="information">Saiba Mais</button>
           </div>
         </div>
-      </div>
-      <div class="arrows">
-        <button><img src="./img/arrow.png" alt="seta esquerda" /></button>
-        <button><img src="./img/arrow.png" alt="seta direita" /></button>
-      </div>
-      <div class="indicators">
-        <div class="number">01</div>
-        <ul>
-          <li class="active"></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <div class="list">
+
         <div class="item">
           <div class="car-img">
             <img src="./img/2.png" alt="imagem carro" />
@@ -80,22 +65,7 @@
             <button class="information">Saiba Mais</button>
           </div>
         </div>
-      </div>
-      <div class="arrows">
-        <button><img src="./img/arrow.png" alt="seta esquerda" /></button>
-        <button><img src="./img/arrow.png" alt="seta direita" /></button>
-      </div>
-      <div class="indicators">
-        <div class="number">01</div>
-        <ul>
-          <li class="active"></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <div class="list">
+
         <div class="item">
           <div class="car-img">
             <img src="./img/3.png" alt="imagem carro" />
@@ -112,19 +82,26 @@
             <button class="information">Saiba Mais</button>
           </div>
         </div>
-      </div>
-      <div class="arrows">
-        <button><img src="./img/arrow.png" alt="seta esquerda" /></button>
-        <button><img src="./img/arrow.png" alt="seta direita" /></button>
-      </div>
-      <div class="indicators">
-        <div class="number">01</div>
-        <ul>
-          <li class="active"></li>
-          <li></li>
-          <li></li>
-        </ul>
+
+        <div class="arrows">
+          <button id="prev">
+            <img src="./img/arrow.png" alt="seta esquerda" />
+          </button>
+          <button id="next">
+            <img src="./img/arrow.png" alt="seta direita" />
+          </button>
+        </div>
+
+        <div class="indicators">
+          <div class="number">01</div>
+          <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -176,11 +176,12 @@ section {
         height: 5px;
         background-color: #beff1b;
         border-radius: 5px;
-        transition: 0.5s;
+        transition: background-color 0.5s, transform 0.5s;
       }
 
       & .active {
         background-color: #fff;
+        transform: scale(1.2);
       }
     }
   }
@@ -208,6 +209,7 @@ section {
           transform: translateX(200px);
           transition: 0.7s;
           transition-delay: 0.3s;
+          opacity: 0;
         }
         & h2 {
           transition-delay: 0.5s;
@@ -227,7 +229,7 @@ section {
 
       & .car-img {
         & img {
-          transform: rotate(-20deg);
+          transform: rotate(-15deg);
         }
       }
 
@@ -237,6 +239,7 @@ section {
         .description,
         .information {
           transform: translateX(0);
+          opacity: 1;
         }
       }
     }
