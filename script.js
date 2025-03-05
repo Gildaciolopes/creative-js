@@ -4,6 +4,7 @@ let container = document.querySelector(".container");
 let items = container.querySelectorAll(".list .item");
 let indicator = document.querySelector(".indicators");
 let dots = indicator.querySelectorAll("ul li");
+let list = container.querySelector(".list");
 
 let active = 0;
 let lastPosition = items.length - 1;
@@ -22,11 +23,13 @@ function updateSlide(index) {
 }
 
 function nextSlide() {
+  list.style.setProperty("--calculation", 1);
   let nextIndex = active + 1 > lastPosition ? 0 : active + 1;
   updateSlide(nextIndex);
 }
 
 function prevSlide() {
+  list.style.setProperty("--calculation", -1);
   let prevIndex = active - 1 < 0 ? lastPosition : active - 1;
   updateSlide(prevIndex);
 }
