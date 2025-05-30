@@ -8,7 +8,7 @@ Carrossel de Imagens: Navegue pelas imagens dos carros com as setas de "próximo
 
 Indicadores de Navegação: Pontos de progresso que mostram qual imagem está ativa no momento.
 
-Efeitos: Ao navegar pelas imagens, o carro inicia andando pra frente ou pra trás, de acordo com o botão apertado, e após isso ele inclina em um ângulo de 20 graus e as informações do carro o acompanham.
+Efeitos: Ao navegar pelas imagens, o carros iniciam andando pra frente ou pra trás, de acordo com o botão apertado, e após isso ele inclina em um ângulo de 20 graus e as informações do carro o acompanham.
 
 ## Tecnologias Utilizadas
 
